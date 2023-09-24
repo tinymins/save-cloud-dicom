@@ -1,0 +1,23 @@
+{
+  "name": "download-cloud-dicom",
+  "version": "0.0.1",
+  "description": "Download Cloud DICOM Files Via Web HTTPS.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tinymins/download-cloud-dicom.git"
+  },
+  "bin": {
+    "download-cloud-dicom": "bin/index.js"
+  },
+  "scripts": {
+    "start": "node bin/index.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "md5": "^2.3.0",
+    "querystringify": "^2.2.0",
+    "yargs": "^17.0.1"
+  }
+}

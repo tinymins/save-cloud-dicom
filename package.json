@@ -13,11 +13,30 @@
     "start": "node bin/index.js"
   },
   "author": "",
-  "license": "MIT",
   "dependencies": {
     "axios": "^0.21.1",
     "md5": "^2.3.0",
     "querystringify": "^2.2.0",
     "yargs": "^17.0.1"
+  },
+  "keywords": [
+    "Cloud DICOM Downloader",
+    "dicom",
+    "downloader",
+    "医学",
+    "医学影像",
+    "云影像",
+    "下载",
+    "上海肺科医院"
+  ],
+  "files": [
+    "*.md",
+    "lib",
+    "bin"
+  ],
+  "homepage": "https://github.com/tinymins/download-cloud-dicom",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tinymins/download-cloud-dicom/issues"
   }
 }

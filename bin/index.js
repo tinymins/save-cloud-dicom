@@ -6,7 +6,7 @@ const { download } = require('../lib');
 
 const argv = yargs(hideBin(process.argv))
   .usage('Usage: $0 url')
-  .command('download-cloud-dicom', 'Download cloud dicom files')
+  .command('save-cloud-dicom', 'Download cloud dicom files')
   .example('$0 https://ylyyx.shdc.org.cn/#/home?sid=123456&token=00d30818a7880c123456e1be10fc88bc&appid=SHPulmH')
   // command
   .demandCommand(1, 'url is required.')

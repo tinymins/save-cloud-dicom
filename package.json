@@ -1,13 +1,13 @@
 {
-  "name": "download-cloud-dicom",
+  "name": "save-cloud-dicom",
   "version": "0.0.1",
-  "description": "Download Cloud DICOM Files Via Web HTTPS.",
+  "description": "Download and Save Cloud DICOM Files Via Web HTTPS.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tinymins/download-cloud-dicom.git"
+    "url": "git+https://github.com/tinymins/save-cloud-dicom.git"
   },
   "bin": {
-    "download-cloud-dicom": "bin/index.js"
+    "save-cloud-dicom": "bin/index.js"
   },
   "scripts": {
     "start": "node bin/index.js"
@@ -34,9 +34,9 @@
     "lib",
     "bin"
   ],
-  "homepage": "https://github.com/tinymins/download-cloud-dicom",
+  "homepage": "https://github.com/tinymins/save-cloud-dicom",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tinymins/download-cloud-dicom/issues"
+    "url": "https://github.com/tinymins/save-cloud-dicom/issues"
   }
 }
